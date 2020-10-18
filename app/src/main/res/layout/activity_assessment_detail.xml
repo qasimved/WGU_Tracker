@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:weightSum="100"
+    tools:context=".AssessmentDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="92"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="230">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                android:background="@color/customized_red"
+                android:gravity="center"
+                android:text="Selected Assessment Info"
+                android:textColor="@android:color/white"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:text="Assessment Title"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:text="Start Date"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:text="End Date"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+            <TextView
+                android:id="@+id/endtDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:text="Objective"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+            <TextView
+                android:id="@+id/objective"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:text="Performance"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+            <TextView
+                android:id="@+id/performance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:text="Notes"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:shadowColor="@color/customized_red"
+                android:singleLine="false"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:weightSum="100">
+
+    </LinearLayout>
+
+</LinearLayout>

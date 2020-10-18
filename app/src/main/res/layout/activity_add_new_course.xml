@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddNewCourseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:theme="@style/EditTextTheme">
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/customized_red"
+
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/customized_red"
+                    android:hint="Course Title"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/customized_red"
+                    android:textColorHint="@color/customized_red" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/startDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:text="TextView"
+                    android:textColor="@color/customized_red"
+                    android:textColorHighlight="@color/customized_red"
+                    android:textColorHint="@color/customized_red"
+                    android:textColorLink="@color/customized_red"
+                    android:textCursorDrawable="@color/customized_red"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/startDateBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="30"
+                    android:background="@color/customized_red"
+                    android:text="Start Date"
+                    android:textColor="@android:color/white"
+                    android:textColorHighlight="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/endDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:shadowColor="@color/customized_red"
+                    android:text="TextView"
+                    android:textColor="@color/customized_red"
+                    android:textColorHighlight="@color/customized_red"
+                    android:textColorHint="@color/customized_red"
+                    android:textColorLink="@color/customized_red"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/endDateBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="30"
+                    android:background="@color/customized_red"
+                    android:text="End date"
+                    android:textColor="@android:color/white"
+                    android:textColorHighlight="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@android:color/white" />
+            </LinearLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:theme="@style/EditTextTheme">
+
+                <EditText
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/customized_red"
+
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/customized_red"
+                    android:hint="Status"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/customized_red"
+                    android:textColorHint="@color/customized_red" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:theme="@style/EditTextTheme">
+
+                <EditText
+                    android:id="@+id/mentorName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/customized_red"
+
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/customized_red"
+                    android:hint="Mentor Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/customized_red"
+                    android:textColorHint="@color/customized_red" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:theme="@style/EditTextTheme">
+
+                <EditText
+                    android:id="@+id/mentorPhoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/customized_red"
+
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/customized_red"
+                    android:hint="Mentor Phone #"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/customized_red"
+                    android:textColorHint="@color/customized_red" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:theme="@style/EditTextTheme">
+
+                <EditText
+                    android:id="@+id/mentorEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/customized_red"
+
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/customized_red"
+                    android:hint="Mentor Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/customized_red"
+                    android:textColorHint="@color/customized_red" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:theme="@style/EditTextTheme">
+
+                <EditText
+                    android:id="@+id/mentorAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/customized_red"
+
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/customized_red"
+                    android:hint="Mentor Address"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="false"
+                    android:textColor="@color/customized_red"
+                    android:textColorHint="@color/customized_red" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="100">
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="80"
+                    android:background="@color/customized_red"
+                    android:text="Add Course"
+                    android:textColor="@android:color/white"
+                    android:textColorHighlight="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textColorLink="@android:color/white"
+                    android:textCursorDrawable="@android:color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

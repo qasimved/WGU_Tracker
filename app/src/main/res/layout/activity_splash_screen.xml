@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dots="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".SplashScreen">
+
+
+    <TextView
+        android:id="@+id/applicationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:gravity="center"
+        android:text="WGU Tracker"
+        android:textColor="@color/customized_red"
+        android:textColorHighlight="@color/customized_red"
+        android:textColorHint="@color/customized_red"
+        android:textColorLink="@color/customized_red"
+        android:textCursorDrawable="@color/customized_red"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <pl.tajchert.waitingdots.DotsTextView
+        android:id="@+id/dots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="top|center_horizontal"
+        android:textColor="@color/customized_red"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        dots:autoplay="true"
+        dots:period="1000" />
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/termCardview"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="?selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.00999999">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:gravity="center"
+                android:textColor="@color/customized_red"
+                android:textColorHighlight="@color/customized_red"
+                android:textColorHint="@color/customized_red"
+                android:textColorLink="@color/customized_red"
+                android:textCursorDrawable="@color/customized_red" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:shadowColor="@color/customized_red"
+                    android:text="Start Date"
+                    android:textColor="@color/customized_red"
+                    android:textColorHighlight="@color/customized_red"
+                    android:textColorHint="@color/customized_red"
+                    android:textColorLink="@color/customized_red" />
+
+                <TextView
+                    android:id="@+id/startDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:shadowColor="@color/customized_red"
+                    android:textColor="@color/customized_red"
+                    android:textColorHighlight="@color/customized_red"
+                    android:textColorHint="@color/customized_red"
+                    android:textColorLink="@color/customized_red" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:shadowColor="@color/customized_red"
+                    android:text="End Date"
+                    android:textColor="@color/customized_red"
+                    android:textColorHighlight="@color/customized_red"
+                    android:textColorHint="@color/customized_red"
+                    android:textColorLink="@color/customized_red" />
+
+                <TextView
+                    android:id="@+id/endDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:shadowColor="@color/customized_red"
+                    android:textColor="@color/customized_red"
+                    android:textColorHighlight="@color/customized_red"
+                    android:textColorHint="@color/customized_red"
+                    android:textColorLink="@color/customized_red" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
